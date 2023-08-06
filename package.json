@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.17.2",
+    "cypress-delete-downloads-folder": "^0.0.2",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:spec": "cypress run --spec",
+    "cy:test:chrome": "cypress run --browser chrome",
+    "cy:test:edge": "cypress run --browser edge",
+    "cy:verify": "cypress verify"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-plugin-steps": "^1.1.1"
+  }
+}
